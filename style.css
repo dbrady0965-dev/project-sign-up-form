@@ -22,6 +22,14 @@
 
 .image img {
     display: block;
-    width: 640px;
+    width: 540px;
     height: 1080px;
+}
+
+.subtitle {
+    position: absolute;
+    display: inline-block;
+    right: -30%;
+    top: 20%;
+    padding: 20px;
 }
