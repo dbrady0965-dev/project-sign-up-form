@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+.image-section {
+    width: 540px;
+    height: 1080px;
+}
 
 .overlay-text {
     position: absolute;
@@ -33,10 +37,28 @@
     height: 1080px;
 }
 
+.bravo {
+    display: inline-flex;
+    box-sizing: border-box;
+    position: relative;
+    width: 1080px;
+    height: 540px;
+    background-color: lightblue;
+    margin-left: 0%;
+    margin-top: 0%;
+    justify-content: space-between;
+    text-align: center;
+    transform: translate(50%, -200%)
+    
+    
+}
+
 .subtitle {
     position: absolute;
     display: inline-block;
-    right: -30%;
-    top: 20%;
+   transform: translate(10%, 50%);
     padding: 20px;
+    
+    justify-content: space-between;
+    box-sizing: border-box;
 }
