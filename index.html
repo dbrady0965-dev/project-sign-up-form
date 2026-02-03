@@ -43,20 +43,33 @@ Sign up now to get started.
 </div>
 </section>
 
-<section class="form-section">
+<section class="charlie">
     <div class="form">
         <form class="sign-up" action="example.com/path"
         method="post">
            <fieldset>
             <legend>Let's Do This</legend>
+            <div style="float:top;">
             <label for="first_name">First Name</label>
             <input type="text" id="first_name">
             <label for="last_name">Last Name</label>
             <input type="text" id="last_name">
+            </div>
+            <div style="float:center;">
             <label for="email">Email</label>
             <input type="email" id="email">
             <label for="phone_number">Phone Number</label>
             <input type="number" id="phone_number">
+            </div>
+            <div style="float:bottom;">
+           <label for="password">Password</label>
+            <input type="password" placeholder="Password" id="password"
+            required>
+            <label for="password">Confirm Password</label>
+            <input type="password" placeholder="Confirm Password"
+            id="confirm_password" required>
+            </div>
+            <button type="submit" class="pure-button pure-button-primary">Create Account</button>
            </fieldset>
         </form>
     </div>
