@@ -68,23 +68,33 @@
     display: inline-flex;
     position: relative;
     width: 1080px;
-    height: 240px;
+    height: 360px;
     background-color: lightgray;
     justify-content: space-between;
-    transform: translate(50%, -450%);
-}
-
+    transform: translate(50%, -300%);
+    box-shadow: black;
 .form {
-    display: inline-block;
+    display: block;
+    
     
 }
 
 .sign-up {
-    display: inline-block;
+    display: block;
     position: absolute;
-    justify-content: space-evenly;
+    justify-items: center;
+    transform: translate(10%, 30%);
+    
+}
 
-
-float-top {
-display: block;
+label, input {
+    display: block;
+    float: left;
+    width: 10em;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+legend {
+    margin-bottom: 1em;
 }
