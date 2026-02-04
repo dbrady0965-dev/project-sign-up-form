@@ -1,8 +1,14 @@
 * {
     margin: 0;
     padding: 0;
-     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
+body {
+    max-height: 1080px;
+    max-width: 1560px;
+}
+
 .image-section {
     width: 540px;
     height: 1080px;
@@ -44,7 +50,7 @@
     position: relative;
     width: 1080px;
     height: 480px;
-    background-color: lightblue;
+    background-color: lightgrey;
     margin-left: 0%;
     margin-top: 0%;
     justify-content: space-between;
@@ -69,10 +75,10 @@
     position: relative;
     width: 1080px;
     height: 360px;
-    background-color: lightgray;
+    background-color: white;
     justify-content: space-between;
     transform: translate(50%, -300%);
-    box-shadow: 1px 1px 5px 1px black;
+    box-shadow: 1px 2px 20px 1px black;
 }
 
     form {
@@ -98,6 +104,12 @@ label, input {
     margin-top: 1em;
     margin-bottom: 1em;
     
+    
+}
+
+input {
+    height: 25px;
+    width: 170px;
 }
 legend {
     margin-bottom: 1em;
@@ -108,7 +120,14 @@ legend {
     position: relative;
     width: 1080px;
     height: 240px;
-    background-color: lightgray;
+    background-color: white;
     justify-content: space-between;
-    transform: translate(50%, -451%);  
+    transform: translate(50%, -425%);  
+}
+
+button {
+    width:240px;
+    height: 60px;
+    box-shadow: 1px, 1px, o.5px, 1px, grey;
+    background-color: mintcream;
 }
