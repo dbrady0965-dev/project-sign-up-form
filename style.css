@@ -73,7 +73,9 @@
     justify-content: space-between;
     transform: translate(50%, -300%);
     box-shadow: black;
-.form {
+}
+
+    form {
     display: block;
     
     
